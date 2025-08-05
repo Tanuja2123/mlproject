@@ -1,6 +1,6 @@
 # Machine Learning Project – End-to-End Deployment
 
-This repository contains an end-to-end implementation of a Machine Learning project, including data preprocessing, model training, evaluation, and deployment using a Flask web application. It follows a modular and production-ready structure suitable for real-world projects.
+This repository contains an end-to-end implementation of a Machine Learning project, including data preprocessing, model training, evaluation, and deployment using a Flask web application. It follows a modular and structure suitable for real-world projects.
 
 ## 🔍 Project Overview
 
@@ -42,10 +42,14 @@ mlproject/
 ```bash
 git clone https://github.com/Tanuja2123/mlproject.git
 cd mlproject
+
 python -m venv venv
 source venv/bin/activate     # On Windows: venv\Scripts\activate
+
 pip install -r requirements.txt
-python app.py
+
+python app.py 
+
 🧠 Technologies Used
 Python
 
